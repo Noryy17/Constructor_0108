@@ -7,3 +7,10 @@ class mahasiswa {
     //Constructor dengan parameter
     mahasiswa(int nim, string nama);
 };
+
+//Definisi Constructor dengan parameter
+mahasiswa::mahasiswa (int nim,string nama){
+    cout << "Constructor Dengan Parameter Terpanggil" <<endl;
+    cout << "NIM  : " <<nim<<endl;
+    cout << "Nama  : " <<nama<<endl;
+}
