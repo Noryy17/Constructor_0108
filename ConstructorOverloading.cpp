@@ -23,3 +23,8 @@ mahasiswa :: mahasiswa(int INim){
 mahasiswa :: mahasiswa (string iNama){
     nama = iNama; //DEFINISI Hanya Nama
 }
+
+int main(){
+    mahasiswa mhs1(102030);     // Hanya Nim
+    mahasiswa mhs2("Andi");     // Hanya Nama
+}
