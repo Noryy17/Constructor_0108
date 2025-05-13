@@ -11,3 +11,9 @@ class buku {
         return this ->judul;
     }
 };
+
+int main(){
+    buku bukunya;
+    cout<<bukunya.setget("Mahasiswa");
+    return 0;
+}
