@@ -19,3 +19,7 @@ mahasiswa :: mahasiswa(){
 mahasiswa :: mahasiswa(int INim){
     nim = INim; //DEFINISI HANYA NIM
 }
+
+mahasiswa :: mahasiswa (string iNama){
+    nama = iNama; //DEFINISI Hanya Nama
+}
