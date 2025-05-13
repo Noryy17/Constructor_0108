@@ -27,4 +27,12 @@ mahasiswa :: mahasiswa (string iNama){
 int main(){
     mahasiswa mhs1(102030);     // Hanya Nim
     mahasiswa mhs2("Andi");     // Hanya Nama
+    mahasiswa mhs3(010203, "Santi"); //NIM dan Nama
+
+    //Tampilkan Nilai
+    cout << "Mahasiswa 1 : "; mhs1.cetak();
+    cout << "Mahasiswa 2 : "; mhs2.cetak();
+    cout << "Mahasiswa 3 : "; mhs3.cetak();
+
+    return 0;
 }
