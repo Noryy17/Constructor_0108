@@ -7,9 +7,13 @@ class Barang {
     public :
 
     //Constructor dengan parameter
-   int namaBarang;
-   string kodeBarang; 
-   Barang(int kodeBarang, string namaBarang);
+   string namaBarang;
+   int kodeBarang; 
+   Barang(int kodeBarang, string namaBarang){
+    this->kodeBarang = kodeBarang;
+    this->namaBarang = namaBarang;
+   }
+   
    
    //Definisi Constructor dengan parameter
 void MenampilkanInfo(){
